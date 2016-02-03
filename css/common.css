@@ -1,0 +1,182 @@
+/********** common start **********/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+body{
+	/*font-family: 'Raleway', sans-serif;*/
+	background: #f3f3f3;
+	font: 87.5%/1 Noto Sans, sans-serif;
+	color: #333;
+	background: #fff;
+}
+h2 {
+    margin: 0 0 30px;
+    font: 3em/1.4 Comfortaa, cursive;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+h3{
+	font: bold 21px Comfortaa, cursive;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+p{
+	margin: 0 0 30px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+}
+textarea{
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 12px 15px;
+	background: transparent;
+	border: 2px solid currentColor;
+	box-sizing: border-box;
+	border-radius: 25px;
+	color: currentColor;
+	transition: 0.3s;
+	outline: none;
+}
+.clearfix { 
+	*zoom: 1; 
+} 
+.clearfix:before,.clearfix:after { 
+	display: table; 
+	line-height: 0; 
+	content: ""; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+.section{
+	position: relative;
+	width: 10px;
+	height: 10px;
+	margin: 50px auto;
+	background: currentColor;
+	border-radius: 50%;
+}
+.section:after {
+    left: 20px;
+}
+.section:before, .section:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 0;
+    margin: -1px 0 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+.section.l:before, .section.r:after {
+	display: none;
+}
+.section:before {
+    right: 20px;
+}
+.section.l{
+	top: -15px;
+	margin: 20px auto 20px 0;
+}
+.header{
+	position: relative;
+	text-align: center;
+	margin: 0 0 50px;
+	padding: 100px 0 0;
+	z-index: 10;
+}
+.header:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 -5px;
+    background: currentColor;
+    border-radius: 50px;
+}
+.header h2 {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 25px;
+}
+.header h2:before, .header h2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 -20px;
+    background: currentColor;
+    border-radius: 50px;
+}
+.header h2:after {
+    margin-left: 10px;
+}
+.col{
+	width: 47.5%;
+	float: left;
+    margin-left: 5%;
+    border: 0px solid transparent;
+    box-sizing: border-box;
+    background-clip: padding-box !important;
+}
+.col:first-child{
+	margin-left: 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/********** common end **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
